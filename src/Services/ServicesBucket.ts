@@ -31,14 +31,14 @@ export class ServicesBucket {
 
     console.log('resultado apix ' + resultado)
     return new S3({
-      accessKeyId: "AKIA5MJMRKS2TGIPHNGN",
-      secretAccessKey: "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",
-      region: "us-east-1"
+      accessKeyId: "",
+      secretAccessKey: "",
+      region: ""
     });
   };
 
   GetBuckerName(): string {
-    return "deuclerioname";
+    return "nameBucket";
   };
 
 
